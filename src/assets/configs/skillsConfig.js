@@ -1,12 +1,9 @@
 import {
   SiPython,
   SiPostgresql,
-  SiJupyter,
-  SiPandas,
-  SiGit,
   SiReact,
   SiJavascript,
-  SiCss3,
+  SiCss,
   SiHtml5,
 } from "react-icons/si";
 import { FaGitAlt } from "react-icons/fa";
@@ -34,11 +31,11 @@ const skillsConfig = {
     { id: "skills-comp-js", className: "skill-icon", icon: <SiJavascript size={ICON_SIZE} />, text: "JavaScript" },
     { id: "skills-comp-react", className: "skill-icon", icon: <SiReact size={ICON_SIZE} />, text: "React" },
     { id: "skills-comp-html", className: "skill-icon", icon: <SiHtml5 size={ICON_SIZE} />, text: "HTML 5" },
-    { id: "skills-comp-css", className: "skill-icon", icon: <SiCss3 size={ICON_SIZE} />, text: "CSS 3" },
+    { id: "skills-comp-css", className: "skill-icon", icon: <SiCss size={ICON_SIZE} />, text: "CSS 3" },
   ],
 };
 
-export default skillsConfig;;
+export default skillsConfig;
 
 
 
