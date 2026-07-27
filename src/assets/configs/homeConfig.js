@@ -53,6 +53,19 @@ const homeConfig = {
 
   workTimeline: [
     {
+  id: "work-7",
+  title: "Data Science Certificate",
+  title_i18n: { en: "Data Science Certificate", es: "Certificado en Ciencia de Datos" },
+  company: "Terminal34",
+  description_i18n: {
+    en: "Completed an intensive Data Science program covering Python, machine learning, data analysis, and AI tools.",
+    es: "Completé un programa intensivo de Ciencia de Datos cubriendo Python, aprendizaje automático, análisis de datos y herramientas de IA.",
+  },
+  date: "2026",
+  icon: <BsGraphUp />,
+  tags: ["data-science", "python", "machine-learning", "AI"],
+},
+    {
       id: "work-6",
       title: "Medical Technologist",
       title_i18n: { en: "Medical Technologist", es: "Tecnólogo Médico" },
