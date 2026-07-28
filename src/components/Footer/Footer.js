@@ -62,7 +62,7 @@ export default function Footer() {
         </Stack>
         <FooterItems />
         <Typography variant="caption" sx={{ display: 'block', mt: 2, opacity: 0.75 }}>
-          © {new Date().getFullYear()} Rodrigo Arenas
+          © {new Date().getFullYear()} Oscar Martinez Gracia
         </Typography>
       </Container>
     </Box>
